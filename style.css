@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'IBM plex mono';
+}
+body {
+  background-color: rgba(0, 0, 0, 0.543);
+  color: aliceblue;
+  text-align: center;
+}
+header {
+  text-align: center;
+  height: 150px;
+  border-bottom: 2px solid white;
+}
+header h1 {
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+.left {
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  color: black;
+  background-color: aliceblue;
+}
+.right {
+  float: right;
+  padding: 10px;
+}
+
+.number {
+  background-color: aliceblue;
+  font-size: 40px;
+  margin-top: 30px;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+input {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.365);
+  border: 1px solid white;
+  width: 150px;
+  height: 80px;
+  color: aliceblue;
+  font-size: 40px;
+  text-align: center;
+}
+button {
+  margin-top: 10px;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+}
+main {
+  margin-top: 100px;
+}
+nav p {
+  line-height: 50px;
+  text-align: start;
+}
+.number {
+  position: absolute;
+  background-color: aliceblue;
+  color: black;
+  margin-top: -10px;
+  margin-left: 45%;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+.message {
+  font-size: 25px;
+  margin-bottom: 10px;
+  padding-top: 0;
+  margin-top: 0;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Guess Number</title>
+  </head>
+  <body>
+    <header>
+      <button class="left">Again!</button>
+      <p class="right">(between 1 and 20)</p>
+      <section>
+        <h1>Guess My Number!</h1>
+        <p class="number">?</p>
+      </section>
+    </header>
+    <main>
+      <div class="flex">
+        <nav>
+          <input type="number" class="guess" />
+          <button class="check">Check!</button>
+        </nav>
+        <nav>
+          <p class="message">⛔️ Start Guessing...</p>
+          <p>💯 Score:<span class="score"></span></p>
+          <p>🏅 Highscore:<span class="highscore"></span></p>
+        </nav>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+    <!--link javascript  must stay with under body (!!!under seclector is by DOM) -->
+  </body>
+</html>
