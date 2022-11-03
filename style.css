@@ -85,3 +85,7 @@ a:visited {
   padding-top: 0;
   margin-top: 0;
 }
+.article {
+  background-color: aliceblue;
+  width: auto;
+}
